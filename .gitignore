@@ -1,0 +1,21 @@
+# Backup and autosave files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.*
+
+# Simulation output
+*.raw
+*.log
+*.out
+
+# Netlist/back-annotation
+*.net
+*.xml
+
+# KiCad specific
+fp-info-cache
+__pycache__/
+*.cache
+sym-lib-table-bak
+fp-lib-table-bak
