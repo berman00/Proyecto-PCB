@@ -477,7 +477,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/MASA_FUENTE": [
+        "ALIMENTACION"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
