@@ -3,6 +3,9 @@
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-save.*
+\#auto_saved_files\#
+*-backups
+~*
 
 # Simulation output
 *.raw
