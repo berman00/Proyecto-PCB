@@ -4575,7 +4575,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LP2950-3.3_TO92"
+		(symbol "Regulator_Linear:LP2950-3.3_TO252"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4590,7 +4590,7 @@
 					)
 				)
 			)
-			(property "Value" "LP2950-3.3_TO92"
+			(property "Value" "LP2950-3.3_TO252"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4599,7 +4599,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -4618,7 +4618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"
+			(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4636,7 +4636,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?252*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4645,10 +4645,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LP2950-3.3_TO92_0_1"
+			(symbol "LP2950-3.3_TO252_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4658,7 +4658,7 @@
 					)
 				)
 			)
-			(symbol "LP2950-3.3_TO92_1_1"
+			(symbol "LP2950-3.3_TO252_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -4669,7 +4669,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4705,7 +4705,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11228,7 +11228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -11512,7 +11512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 			(at 25.4 44.45 0)
 			(effects
 				(font
@@ -13319,7 +13319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 			(at 270.51 121.92 0)
 			(effects
 				(font
@@ -13404,7 +13404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LP2950-3.3_TO92")
+		(lib_id "Regulator_Linear:LP2950-3.3_TO252")
 		(at 139.7 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13421,7 +13421,7 @@
 				)
 			)
 		)
-		(property "Value" "LP2950-3.3_TO92"
+		(property "Value" "LP2950-3.3_TO252"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -13429,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 139.7 81.915 0)
 			(effects
 				(font
@@ -13448,7 +13448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"
+		(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-252"
 			(at 139.7 87.63 0)
 			(effects
 				(font
@@ -13771,7 +13771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
 			(at 196.85 119.38 0)
 			(effects
 				(font
