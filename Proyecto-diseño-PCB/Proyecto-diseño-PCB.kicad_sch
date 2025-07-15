@@ -7,7 +7,7 @@
 	(title_block
 		(title "Placa PIC18/45K50")
 		(date "2025-07-05")
-		(rev "1.0")
+		(rev "1.2")
 		(company "FCEIA")
 		(comment 1 "Autor: Valentin Berman")
 	)
@@ -5573,6 +5573,12 @@
 		(uuid "9998ee1f-a26b-4ffa-86ad-a39cc80f625a")
 	)
 	(junction
+		(at 255.27 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7960401-1cd1-470f-ad8c-727fb3df8206")
+	)
+	(junction
 		(at 139.7 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5735,6 +5741,16 @@
 			(type default)
 		)
 		(uuid "166dbb5e-7ed5-4a56-8a60-c5d710dae685")
+	)
+	(wire
+		(pts
+			(xy 252.73 25.4) (xy 255.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fa56d7-da2a-4f6f-be89-07550098e988")
 	)
 	(wire
 		(pts
@@ -8173,6 +8189,7 @@
 	)
 	(label "MASA_FUENTE"
 		(at 247.65 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,6 +8197,17 @@
 			(justify left bottom)
 		)
 		(uuid "00299318-7a11-4b25-90a4-a17de75a0256")
+		(property "Netclass" "Power"
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "RE1"
 		(at 201.93 116.84 0)
@@ -8413,7 +8441,6 @@
 	)
 	(label "MASA_FUENTE"
 		(at 195.58 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8421,17 +8448,6 @@
 			(justify left bottom)
 		)
 		(uuid "48505eb9-87a7-4b85-b7b9-a55d46e5fa3e")
-		(property "Netclass" "ALIMENTACION"
-			(at 195.58 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "RC2"
 		(at 54.61 168.91 0)
@@ -8932,6 +8948,38 @@
 			(justify right bottom)
 		)
 		(uuid "fa16de97-5682-4169-bc8d-785fd203931a")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 252.73 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5cc6550-21e2-4c9b-942a-758748c93c3a")
+		(property "Netclass" "Power"
+			(at 253.4285 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -83.185 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
