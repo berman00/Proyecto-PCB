@@ -13294,8 +13294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
-		(at 270.51 119.38 0)
-		(mirror y)
+		(at 270.51 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13303,7 +13302,7 @@
 		(dnp no)
 		(uuid "dcafff96-9ebe-437f-8ea0-ed283b82d36c")
 		(property "Reference" "J4"
-			(at 266.7 99.06 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13310,7 @@
 			)
 		)
 		(property "Value" "LADO B"
-			(at 271.78 120.6499 0)
+			(at 271.78 120.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,7 +13320,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 270.51 119.38 0)
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,7 +13329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 119.38 0)
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13339,7 +13338,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 270.51 119.38 0)
+			(at 270.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13748,6 +13747,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x15_Pin")
 		(at 196.85 119.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13755,7 +13755,7 @@
 		(dnp no)
 		(uuid "fbb54e8d-39ae-4dcd-b110-546b3947d548")
 		(property "Reference" "J3"
-			(at 198.12 99.06 0)
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +13763,7 @@
 			)
 		)
 		(property "Value" "LADO A"
-			(at 197.485 101.6 0)
+			(at 197.485 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
