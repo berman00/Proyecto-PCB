@@ -18,7 +18,7 @@ Diseñado con [KiCad](https://www.kicad.org/).
 
 - Elegir componentes que se puedan **soldar a mano** en la medida de lo posible.
 
-- Diseñar **Protección contra EDS** en lugares susceptibles.
+- Diseñar **protección contra ESD** en lugares susceptibles.
 
 - Tomar precauciones para **reducir el ruido de alimentación**.
 
